@@ -1,13 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Example from './Components/Example.js'
+import Logo from './Components/Logo.js'
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
       <View style={styles.container}>
-
-        <Text>MY FIRST REACT NATIVE APP OMG</Text>
+      <Logo />
       </View>
     );
   }
